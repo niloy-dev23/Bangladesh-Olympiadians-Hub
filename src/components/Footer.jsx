@@ -10,7 +10,7 @@ export default function Footer() {
           </p>
           <p className="text-sm text-muted-foreground">
             Developed By{" "}
-            <a href="https://www.facebook.com/nafissazzadniloy" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-medium">
+            <a href="https://nafisniloy.vercel.app/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-medium">
               Nafis Sazzad Niloy
             </a>
           </p>
