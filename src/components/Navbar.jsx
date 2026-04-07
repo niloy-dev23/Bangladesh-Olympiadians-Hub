@@ -74,7 +74,7 @@ export default function Navbar() {
 
           {/* Join button */}
           <a
-            href="https://facebook.com"
+            href="https://chat.whatsapp.com/BQWjAm1koZABG3Amd5D4ic"
             target="_blank"
             rel="noopener noreferrer"
             className="relative ml-3 group"
