@@ -117,7 +117,7 @@ export default function Practice() {
                     value={answers[p.id] || ""}
                     onChange={(e) => setAnswers((prev) => ({ ...prev, [p.id]: e.target.value }))}
                     onKeyDown={(e) => e.key === "Enter" && handleSubmit(p)}
-                    className="w-full px-4 py-2.5 rounded-xl bg-muted border border-border text-foreground text-sm placeholder:text-muted-foreground/50 focus:outline-none focus:ring-2 focus:ring-primary/50 focus:border-primary transition-all"
+                    className="w-full px-4 py-2.5 rounded-xl bg-muted border border-border text-foreground text-sm placeholder:text-muted-foreground/50 focus:outline-hidden focus:ring-2 focus:ring-primary/50 focus:border-primary transition-all"
                   />
                   <button
                     onClick={() => handleSubmit(p)}

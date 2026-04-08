@@ -2,7 +2,7 @@ import { FiFacebook, FiYoutube, FiInstagram } from "react-icons/fi";
 
 export default function Footer() {
   return (
-    <footer className="border-t border-border bg-card/50 backdrop-blur-sm">
+    <footer className="border-t border-border bg-card/50 backdrop-blur-xs">
       <div className="container mx-auto px-4 py-8 flex flex-col md:flex-row items-center justify-between gap-4">
         <div className="flex flex-col items-center md:items-start gap-1">
           <p className="text-sm text-muted-foreground">

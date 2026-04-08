@@ -33,12 +33,12 @@ export default function Navbar() {
         {/* Logo */}
         <Link to="/" className="flex items-center gap-3 group">
           <div className="relative">
-            <div className="absolute -inset-1 rounded-full bg-gradient-to-r from-primary via-secondary to-accent opacity-0 group-hover:opacity-70 blur-md transition-all duration-500" />
+            <div className="absolute -inset-1 rounded-full bg-linear-to-r from-primary via-secondary to-accent opacity-0 group-hover:opacity-70 blur-md transition-all duration-500" />
             <div className="relative w-10 h-10 rounded-full overflow-hidden border-2 border-primary/50 group-hover:border-primary transition-all duration-500 group-hover:shadow-[0_0_20px_hsl(var(--primary)/0.4)] group-hover:scale-110">
               <img src={logo} alt="BOH Logo" className="w-full h-full object-cover" />
             </div>
           </div>
-          <span className="hidden sm:block text-sm font-heading font-bold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent opacity-0 group-hover:opacity-100 transition-all duration-500 -translate-x-2 group-hover:translate-x-0">
+          <span className="hidden sm:block text-sm font-heading font-bold bg-linear-to-r from-primary to-secondary bg-clip-text text-transparent opacity-0 group-hover:opacity-100 transition-all duration-500 -translate-x-2 group-hover:translate-x-0">
             BOH
           </span>
         </Link>
@@ -62,7 +62,7 @@ export default function Navbar() {
               <span
                 className={`absolute bottom-0 left-1/2 -translate-x-1/2 h-0.5 rounded-full transition-all duration-500 ${
                   location.pathname === l.to
-                    ? "w-8 bg-gradient-to-r from-primary to-secondary opacity-100 shadow-[0_0_8px_hsl(var(--primary)/0.5)]"
+                    ? "w-8 bg-linear-to-r from-primary to-secondary opacity-100 shadow-[0_0_8px_hsl(var(--primary)/0.5)]"
                     : "w-0 bg-primary opacity-0 group-hover:w-6 group-hover:opacity-70"
                 }`}
               />
@@ -79,7 +79,7 @@ export default function Navbar() {
             rel="noopener noreferrer"
             className="relative ml-3 group"
           >
-            <span className="absolute -inset-0.5 rounded-xl bg-gradient-to-r from-primary via-secondary to-primary opacity-60 blur-sm group-hover:opacity-100 group-hover:blur-md transition-all duration-500 animate-pulse" />
+            <span className="absolute -inset-0.5 rounded-xl bg-linear-to-r from-primary via-secondary to-primary opacity-60 blur-xs group-hover:opacity-100 group-hover:blur-md transition-all duration-500 animate-pulse" />
             <span className="relative block px-5 py-2 rounded-xl bg-primary text-primary-foreground text-sm font-semibold transition-all duration-300 group-hover:shadow-lg group-hover:scale-105 active:scale-95">
               Join Community
             </span>

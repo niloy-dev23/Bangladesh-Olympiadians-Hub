@@ -116,7 +116,7 @@ export default function Home() {
       {/* CTA */}
       <SectionWrapper className="py-20">
         <div className="container mx-auto px-4">
-          <div className="rounded-3xl bg-gradient-to-r from-primary to-secondary p-12 text-center text-primary-foreground">
+          <div className="rounded-3xl bg-linear-to-r from-primary to-secondary p-12 text-center text-primary-foreground">
             <h2 className="text-3xl md:text-4xl font-heading font-bold mb-4">
               Ready to Start Your Journey?
             </h2>
