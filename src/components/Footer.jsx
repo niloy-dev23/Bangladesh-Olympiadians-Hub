@@ -16,7 +16,7 @@ export default function Footer() {
           </p>
         </div>
         <div className="flex gap-8">
-          <a href="#" className="text-muted-foreground hover:text-primary transition-colors"><FiFacebook size={20} /></a>
+          <a href="https://www.facebook.com/profile.php?id=61575698620725&rdid=oU9ct3RE7UzXsoxO&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1XwvbQca6z%2F" className="text-muted-foreground hover:text-primary transition-colors"><FiFacebook size={20} /></a>
           <a href="https://www.youtube.com/@BangladeshOlympiadiansHub" className="text-muted-foreground hover:text-primary transition-colors"><FiYoutube size={20} /></a>
         </div>
       </div>
